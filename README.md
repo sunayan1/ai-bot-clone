@@ -1,78 +1,49 @@
-<<<<<<< HEAD
-# ai-bot-clone
-- Goal: Build a chat app with Express.js and free AI API.
-- Status: Tried OpenAI, Grok, DeepSeek (required billing), Ollama (hardware insufficient), Hugging Face (limited).
-- Next Steps: Could revisit with better hardware (Ollama) or a truly free API.
-- Dependencies: express, cors, dotenv
-=======
-# Getting Started with Create React App
+# AI Bot Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Chatbot clone developed with Node.js and Express.js, mimicking ChatGPT, as a learning project for testing web development and AI API integration.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Backend**: Express.js server handling POST requests for user input.
+- **Frontend**: Basic HTML/JavaScript app for sending the prompt and receiving responses.
+- **APIs Tested**: Had tried out the OpenAI, Grok, DeepSeek, and Hugging Face APIs.
+- **Tools**: Used `dotenv` for environment variables and Git version control.
 
-### `npm start`
+## Status
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Complete**: Backend, frontend, and API integration logic fully completed.
+- **Challenge**: No API responses because billing needs (OpenAI, Grok, DeepSeek) or rate limits (Hugging Face) weren't met. Local model (Ollama) tried but hardware (low RAM) wasn't sufficient.
+- **Outcome**: Functional app structure showing Node.js, Express, and API processing, although without live AI responses.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Lessons Learned
 
-### `npm test`
+- Installing and debugging REST APIs with Express.js.
+- Using environment variables with `dotenv`.
+- GitHub version control and workflow.
+- Collaboration with free-tier API restrictions and hardware problems.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Dependencies
 
-### `npm run build`
+- `express`: Backend server framework.
+- `cors`: Enable cross-origin requests.
+- `dotenv`: Environment variable management.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Next Steps
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Return with improved hardware (8GB+ RAM) to support running Ollama locally.
+- Research new free AI APIs that do not charge.
+- Enhance frontend with better UI/UX.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## How to Run
 
-### `npm run eject`
+1. Clone the repo: `git clone https://github.com/your-username/ai-bot-clone.git`
+2. Install dependencies: `npm install`
+3. Start `.env` with an API key (if there is one available).
+4. Start server: `node server.js`
+5. View `index.html` or via app like `live-server`.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+_Note_: API responses require a valid, free-tier API key, which was not possible due to billing limits.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> master
+Developed by [Sunayan Duwal]
